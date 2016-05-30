@@ -1,14 +1,14 @@
 html,body{width:100%;height:100%;margin:0px;padding:0px;}
-body{background: #fff url(../images/background.jpg) center top fixed;}
+body{background: #fff url(../images/all/background.jpg) center top fixed;}
 img{margin:0px;padding:0px;border:0px;}
 #footer{}
 .clear{clear:both;}
 .wrapper{position:relative;width:1236px;margin:0px auto;padding:0px;}
 
-#topbar{background:url(../images/header_bg.png) top left repeat-x;padding-bottom:1px;border:1px #771d1d solid;text-align:left;height:179px;}
+#topbar{background:url(../images/all/header_bg.png) top left repeat-x;padding-bottom:1px;border:1px #771d1d solid;text-align:left;height:179px;}
 #topbar a{padding:0px 4px;}
 #slideContent{
-	background:url(../images/slide_bg.png) top left repeat-x;
+	background:url(../images/all/slide_bg.png) top left repeat-x;
 	height:345px;
 	padding:20px 0px;
 	margin-top:-3px;
@@ -21,17 +21,17 @@ img{margin:0px;padding:0px;border:0px;}
 	border:1px #ff9d9d solid;
 }
 #content3{
-	background:url(../images/content3_bg.png);
+	background:url(../images/all/content3_bg.png);
 }
 #content4{
 	background:#000;
 }
 #content5{
-	background:url(../images/content3_bg.png) top left repeat;
+	background:url(../images/all/content3_bg.png) top left repeat;
 	height:530px;
 }
 #footer{
-	background:url(../images/footer_bg.png) top left repeat-x;
+	background:url(../images/all/footer_bg.png) top left repeat-x;
 	padding-top:9px;
 }
 
@@ -115,7 +115,7 @@ img{margin:0px;padding:0px;border:0px;}
 	width: 333px;
 	height: 340px; 
 	float: left;
-	background-image: url(../images/content3.png);
+	background-image: url(../images/all/content3.png);
 	background-size: 333px 340px;
 	background-repeat: no-repeat;
 }
@@ -132,7 +132,7 @@ img{margin:0px;padding:0px;border:0px;}
 	height: 60px; 
     padding-top: 20px;
     margin-left: 16px;
-	background-image: url(../images/product-content-name.png);
+	background-image: url(../images/all/product-content-name.png);
 	background-size: 300px 60px;
 	background-repeat: no-repeat;
     background-position: center;
@@ -155,7 +155,7 @@ img{margin:0px;padding:0px;border:0px;}
 #content5 .wrapper .image-art {
 	width: 1000px;
 	height: 429px;
-	background-image: url(../images/content5-1.png);
+	background-image: url(../images/all/content5-1.png);
 	background-size: 1000px 429px;
 	background-repeat: no-repeat;
     background-position: center;
@@ -164,15 +164,16 @@ img{margin:0px;padding:0px;border:0px;}
 .introduce {
 	width: 900px;
 	height: 231px;
-	margin-top: 10px;
+	margin-top: 11px;
 	margin-left: 10px;
-	background-color: #fefefe
+	background-color: #fefefe;
+	border-bottom: 1px dashed #CCCCCC;
 }
 
 .image-success {
 	width: 1000px;
 	height: 490px;
-	background-image: url(../images/content5-1.png);
+	background-image: url(../images/all/content5-1.png);
 	background-size: 1000px 490px;
 }
 
@@ -181,6 +182,7 @@ img{margin:0px;padding:0px;border:0px;}
 	height: 429px;
 	padding-left:37px; 
 	padding-top: 80px; 
+	margin-top: 20px;
 }
 
 .center-content-art img {
@@ -218,7 +220,7 @@ ul.category_menu li:last-child {
     margin: 0;
     outline: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Amazon", Helvetica, sans-serif;
     vertical-align: baseline;
     padding-left: 12px;
     
@@ -230,4 +232,60 @@ ul.category_menu li:last-child {
 
 .category_menu li h3 a:hover {
 	color: white;
+}
+
+.title-product {
+	width: auto; 
+	height: 50px; 
+	text-align: center; 
+	background-color: #000; 
+	margin:10px; 
+	margin-bottom: -5px;
+	border: 3px #fff solid;
+}
+
+.text-title {
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	font-family: "Amazone", Times, serif;
+	font-style: oblique;
+	padding-top: 15px;
+}
+
+.show-more {
+	width: 990px;
+    margin-top: -50px;
+}
+
+.show-more a { 
+	color: red;
+	font-style: italic;
+	padding-left: 900px;
+}
+
+.show-more a:hover {
+	color: white;
+	font-style: italic;
+}
+
+.products {
+	margin-top: 50px;
+	background-image: url(../images/all/bg-content.jpg);
+	background-size: 1000px auto;
+	background-repeat: repeat-y;
+}
+
+.note {
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px
+}
+
+.mapsgoogle {
+    border: 2px solid #CCCCCC;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    margin-top: 20px;
 }
